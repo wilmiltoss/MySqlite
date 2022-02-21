@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ConsultarUnaCiudad">
+
+    <EditText
+        android:id="@+id/et_codCiudad_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="codCiudad"
+        >
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_nombreCiudad_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="nombreCiudad">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/et_poblacion_c"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="poblacion">
+
+    </EditText>
+
+
+    <Button
+        android:id="@+id/btn_consultar_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:onClick="onclick">
+
+    </Button>
+
+    <Button
+        android:id="@+id/btn_actualizar_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:onClick="onclick">
+
+    </Button>
+
+        <Button
+            android:id="@+id/btn_eliminar_c"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:onClick="onclick">
+
+        </Button>
+
+
+</LinearLayout>
