@@ -88,8 +88,8 @@ public class ConsultarUnaCiudad extends AppCompatActivity {
             Cursor cursor = db.query(Utilidades.TABLA_CIUDAD, campos, Utilidades.CAMPO_COD_CIUDAD + "=?", parametros, null, null, null);
             cursor.moveToFirst();
 
-            nombreCiudad_c.setText(cursor.getString(1));
-            poblacion_c.setText(cursor.getString(2));
+            nombreCiudad_c.setText(cursor.getString(0));
+            poblacion_c.setText(cursor.getString(1));
             cursor.close();
 
         } catch (Exception e) {
